@@ -1,0 +1,82 @@
+{
+  "bnk48": [
+    {
+      "id": 1,
+      "name": "photo-aitakatta-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 2,
+      "name": "photo-changsuek-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 3,
+      "name": "photo-costume-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 4,
+      "name": "photo-debut-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 5,
+      "name": "photo-halloween-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 6,
+      "name": "photo-loi-krathong-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 7,
+      "name": "photo-memorial-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 8,
+      "name": "photo-road-show-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 9,
+      "name": "photo-senbatsu-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 10,
+      "name": "photo-xmas-250",
+      "price": 250,
+      "category": "photo"
+    },
+    {
+      "id": 11,
+      "name": "single-2nd-350",
+      "price": 350,
+      "category": "single"
+    },
+    {
+      "id": 12,
+      "name": "single-3rd-350",
+      "price": 350,
+      "category": "single"
+    },
+    {
+      "id": 13,
+      "name": "single-debut-350",
+      "price": 350,
+      "category": "single"
+    }
+  ]
+}
