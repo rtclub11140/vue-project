@@ -1,0 +1,76 @@
+{
+  "hotels": [
+    {
+      "id": "H01",
+      "name": "hard-rock-hotel",
+      "category": "hotel",
+      "price": "5000"
+    },
+    {
+      "id": "H02",
+      "name": "ibis-styles-hotel",
+      "category": "hotel",
+      "price": "4500"
+    },
+    {
+      "id": "H03",
+      "name": "koh-samui-resort",
+      "category": "resort",
+      "price": "5200"
+    },
+    {
+      "id": "H04",
+      "name": "layana-resort-and-spa",
+      "category": "resort",
+      "price": "6000"
+    },
+    {
+      "id": "H05",
+      "name": "luxury-beach-resort",
+      "category": "resort",
+      "price": "5500"
+    },
+    {
+      "id": "H06",
+      "name": "royal-palace-hotel",
+      "category": "hotel",
+      "price": "4000"
+    },
+    {
+      "id": "H07",
+      "name": "world-thailand-hotel",
+      "category": "resort",
+      "price": "6500"
+    },
+    {
+      "id": "H08",
+      "name": "bangkok-palace-hotel",
+      "category": "hotel",
+      "price": "6000"
+    },
+    {
+      "id": "H09",
+      "name": "resort-four-seasons",
+      "category": "resort",
+      "price": "6500"
+    },
+    {
+      "id": "H10",
+      "name": "tongsai-bay-centara-grand",
+      "category": "resort",
+      "price": "5500"
+    },
+    {
+      "id": "H11",
+      "name": "bellagio-casio-and-hotel",
+      "category": "hotel",
+      "price": "6000"
+    },
+    {
+      "id": "H12",
+      "name": "sri-panwa-villa",
+      "category": "resort",
+      "price": "5400"
+    }
+  ]
+}
