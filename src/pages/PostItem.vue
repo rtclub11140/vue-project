@@ -8,27 +8,27 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 export default {
-  async mounted() {
-    // จะทำงานทุกครั้งเมื่อ component load สำเร็จ
-    console.log("mounted");
-    console.log(this.$route.params);
-    const { id } = this.$route.params;
-    const url = `https://jsonplaceholder.typicode.com/posts/${id}`;
+    async mounted() {
+        // จะทำงานทุกครั้งเมื่อ component load สำเร็จ
+        console.log('mounted')
+        console.log(this.$route.params)
+        const { id } = this.$route.params
+        const url = `https://jsonplaceholder.typicode.com/posts/${id}`
 
-    try {
-      const { data } = await axios.get(url);
-      this.post = data;
-    } catch (err) {
-      console.log(err.message);
+        try {
+            const { data } = await axios.get(url)
+            this.post = data
+        } catch (err) {
+            console.log(err.message)
+        }
+    },
+    data() {
+        return {
+            post: []
+        }
     }
-  },
-  data() {
-    return {
-      post: []
-    };
-  }
-};
+}
 </script>
 

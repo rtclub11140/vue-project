@@ -3,11 +3,11 @@
         <div class="content">
             <!-- การเข้าถึงค่าที่อยู่ใน store -->
             <!-- <h3 class="subtitle">Counter: {{$store.state.counter}}</h3> -->
-            <h3 class="subtitle">Counter in Vuex: {{counter}}</h3>
-            <h3 class="subtitle">Counter Component Home: {{doubleCounter}}</h3>
+            <h3 class="subtitle">1. Counter in Vuex: {{counter}}</h3>
+            <h3 class="subtitle">2. Counter Component Home: {{doubleCounter}}</h3>
 
-            <h3 class="subtitle">Counter Component Vuex: {{$store.getters.trippleCounter}}</h3>
-            <h3 class="subtitle">Counter Component Vuex: {{trippleCounter}}</h3>
+            <h3 class="subtitle">3. Counter Component Vuex: {{$store.getters.trippleCounter}}</h3>
+            <h3 class="subtitle">4. Counter Component Vuex: {{trippleCounter}}</h3>
         </div>
 
         <div class="control">
