@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <!-- <input v-model = "counter" type="number">
+    <div>
+        <!-- <input v-model = "counter" type="number">
     <p>{{counter}}</p>   
     <input v-model = "name" type="text">
      <p>{{name}}</p>
-     <button @click="updateCounter">updateCounter1</button> -->
-
-    <!-- <section class="section">
+        <button @click="updateCounter">updateCounter1</button>-->
+        <!-- <section class="section">
        <div class="container"></div>
       <progress :class="className" :value="counter" max="15"></progress>
       <p v-if="counter>=10">Couter is To High</p>
@@ -14,22 +13,21 @@
       <button @click="updateCounter()" class="button is-primary">Hello1</button>
 
       <p :key="idx" v-for="(each,idx) in numbers" :style="style(each)">{{each}}, {{idx}}</p>    
-     </section> -->
+        </section>-->
 
-    <section class="section">
-      <div class="container">
-        <navbar :isAuth="isAuth" />
-        <hr>
-        <!-- <p class="control">
+        <section class="section">
+            <div class="container">
+                <navbar :isAuth="isAuth"/>
+                <hr>
+                <!-- <p class="control">
            <button @click="updateCounter()" class="button">Update</button>
-         </p> -->
-        <!-- <router-view :foo="'foo123'"></router-view> -->
-        <!-- <router-view :counter="counter"></router-view> -->
-        <router-view :isAuth="isAuth" @updateAuth="updateAuth($event)"></router-view>
-      </div>
-    </section>
-
-  </div>
+                </p>-->
+                <!-- <router-view :foo="'foo123'"></router-view> -->
+                <!-- <router-view :counter="counter"></router-view> -->
+                <router-view :isAuth="isAuth" @updateAuth="updateAuth($event)"></router-view>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script>
